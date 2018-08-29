@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "410stats api",
+    "script": "api/api.js",
+    "max_restarts": "5",
+    "restart_delay": "10000",
+    "log-date-format": "YYYY-MM-DD HH:mm",
+    "env": {
+      "NODE_ENV": "development",
+    },
+    "env_production": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "410stats-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.2.0",
+    "catbox": "^10.0.2",
+    "catbox-memory": "^3.1.2",
+    "hapi": "^17.2.3",
+    "hapi-mysql2": "^2.0.3",
+    "joi": "^13.1.2",
+    "moment": "^2.22.0",
+    "mysql2": "^1.5.3"
+  }
+}
