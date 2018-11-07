@@ -56,7 +56,7 @@ pm2 start Ecosystem410stats_api.config.json --env production
 Normalement, l'API s'est lancée en mode service (elle ne se fermera pas à la fermeture de votre invité de commande) et vous pouvez y accéder via localhost:8000
 #### Client web
 
-Je vous invite à aller voir le fichier [Readme](./dashboard/README.MD), provenant de la template que j'ai utilisée, pour lancer et/ou build le client web. Pour un déploiement public vous aurez plutôt besoin de le build.
+Je vous invite à aller voir le fichier [Readme](./dashboard/README.md), provenant de la template que j'ai utilisée, pour lancer et/ou build le client web. Pour un déploiement public vous aurez plutôt besoin de le build.
 Cependant, le client ne sera pas encore lié à l'api. Lisez le paragraphe suivant.
 ### Déploiement
 Pour que le client fonctionne, il faut que le serveur web l'hébergeant et l'API soient sur le même port.
